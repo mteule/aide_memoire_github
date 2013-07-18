@@ -13,3 +13,6 @@ Dans la page qui est affichée il y a une icône 'fork'
 C'est Tout!!!
 
 Il ne reste plus qu'à cloner sur le /home, faire la modif, committer, pusher et pull-requester
+
+Supprimer un depot:
+https://help.github.com/articles/deleting-a-repository
