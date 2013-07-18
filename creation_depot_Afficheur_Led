@@ -1,0 +1,26 @@
+Création du dépot Afficheur_Led
+
+(Créer un nouveau dépot git à partir de fichiers déjà existant)
+
+- se connecter au compte github
+- dans l'interface web, créer un nouveau dépot, avec un readme
+- Quand le dépot est créé, récupérer l'adresse https:// 
+Ensuite ça se passe dans le shell:
+- git clone 
+
+ $ git clone https://github.com/mteule/Afficheur_Led.git
+ $ cd Afficheur_Led/
+/Afficheur_Led $ git status
+/Afficheur_Led $ git checkout -b vieux_code 
+/Afficheur_Led $ git add *
+/Afficheur_Led $ git commit
+/Afficheur_Led $ git push origin  # Ne donne rien !!!
+/Afficheur_Led $ git push origin vieux_code
+
+Après tout cela, le dépot et le dossier du home sont dans le même état, et l'on a bien deux branches
+
+Avantage:
+La solution de la facilité à priori, évite la série de commandes à partir de git init et de rajouter manuellement l'adresse du dépot dans origin.
+
+Ici une page en français qui rappelle une série de commandes simples pour faire les merges:
+http://alx.github.io/gitbook/3_usage_basique_des_branches_et_des_merges.html

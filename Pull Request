@@ -1,0 +1,15 @@
+
+Faire une Pull Request sur un Dépot appartennant à un autre utilisateur.
+
+Connecté au compte github
+Cliquer sur Explore
+Search for 'strycore'
+
+Il y a un résultat dans user
+
+Aller sur la page perso, selectionner le dépot.
+Dans la page qui est affichée il y a une icône 'fork' 
+
+C'est Tout!!!
+
+Il ne reste plus qu'à cloner sur le /home, faire la modif, committer, pusher et pull-requester
