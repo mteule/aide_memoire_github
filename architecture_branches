@@ -1,3 +1,8 @@
 Le lien qui explique pourquoi faire des git merge --no-ff , avec des schemas : 
 a successful-git-branching-model
 http://nvie.com/posts/a-successful-git-branching-model/
+
+Comment récupérer une branche autre que la branche master:
+http://stackoverflow.com/questions/1911109/git-clone-a-specific-branch
+git clone -b my-branch https://git@github.com/username/myproject.git
+
